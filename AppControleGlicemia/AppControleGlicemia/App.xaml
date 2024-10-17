@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppControleGlicemia.App">
+    <Application.Resources>
+
+        <ResourceDictionary>
+
+            <Color x:Key="ColorPrimary">#27B0AF</Color>
+            <Color x:Key="ColorSecondary">#16646E</Color>
+            <Color x:Key="ColorLight">#EDE4E0</Color>
+            <Color x:Key="ColorSecondaryLight">#F7F3F2</Color>
+            <Color x:Key="ColorNeutral">#DDCDBE</Color>
+            <Color x:Key="ColorDark">#4A3F2A</Color>
+            <Color x:Key="ColorDanger">#E58507</Color>
+
+            <x:String x:Key="IconDroplet">&#xf043;</x:String>
+            <x:String x:Key="IconList">&#xf03a;</x:String>
+            <x:String x:Key="IconHome">&#xf015;</x:String>
+            <x:String x:Key="IconFingerPrint">&#xf577;</x:String>
+            <x:String x:Key="IconPen">&#xf304;</x:String>
+            <x:String x:Key="IconPointer">&#xf25a;</x:String>
+            <x:String x:Key="IconAbout">&#xf05a;</x:String>
+            <x:String x:Key="IconTrash">&#xf1f8;</x:String>
+            <x:String x:Key="IconConfig">&#xf013;</x:String>
+            <x:String x:Key="IconPadLock">&#xf023;</x:String>
+            
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>
