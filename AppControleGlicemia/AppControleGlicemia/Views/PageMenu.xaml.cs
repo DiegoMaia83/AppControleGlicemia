@@ -1,4 +1,4 @@
-﻿using AppControleGlicemia.Views.Destro;
+﻿using AppControleGlicemia.Views.Dextro;
 using System;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -23,15 +23,15 @@ namespace AppControleGlicemia.Views
             IsPresented = false;
         }
 
-        private void btDestroCadastro_Clicked(object sender, EventArgs e)
+        private void btDextroCadastro_Clicked(object sender, EventArgs e)
         {
-            this.Detail = new NavigationPage(new PageDestroCadastro());
+            this.Detail = new NavigationPage(new PageDextroCadastro());
             IsPresented = false;
         }
 
-        private void btDestroLista_Clicked(object sender, EventArgs e)
+        private void btDextroLista_Clicked(object sender, EventArgs e)
         {
-            this.Detail = new NavigationPage(new PageDestroLista());
+            this.Detail = new NavigationPage(new PageDextroLista());
             IsPresented = false;
         }
 

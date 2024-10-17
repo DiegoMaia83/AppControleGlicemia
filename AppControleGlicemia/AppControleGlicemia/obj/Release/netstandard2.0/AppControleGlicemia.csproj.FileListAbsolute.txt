@@ -4,8 +4,6 @@ D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppCo
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia\obj\Release\netstandard2.0\AppControleGlicemia.GeneratedMSBuildEditorConfig.editorconfig
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia\obj\Release\netstandard2.0\App.xaml.g.cs
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia\obj\Release\netstandard2.0\MainPage.xaml.g.cs
-D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia\obj\Release\netstandard2.0\Views\Destro\PageDestroCadastro.xaml.g.cs
-D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia\obj\Release\netstandard2.0\Views\Destro\PageDestroLista.xaml.g.cs
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia\obj\Release\netstandard2.0\Views\PageHome.xaml.g.cs
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia\obj\Release\netstandard2.0\Views\PageInsulina.xaml.g.cs
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia\obj\Release\netstandard2.0\Views\PageMenu.xaml.g.cs
@@ -20,3 +18,5 @@ D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppCo
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia\obj\Release\netstandard2.0\AppControleGlicemia.csproj.AssemblyReference.cache
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia\obj\Release\netstandard2.0\refint\AppControleGlicemia.dll
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia\obj\Release\netstandard2.0\AppControleGlicemia.sourcelink.json
+D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia\obj\Release\netstandard2.0\Views\Destro\PageDextroCadastro.xaml.g.cs
+D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia\obj\Release\netstandard2.0\Views\Destro\PageDextroLista.xaml.g.cs

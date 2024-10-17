@@ -1,5 +1,5 @@
 ﻿using AppControleGlicemia.Services;
-using AppControleGlicemia.Views.Destro;
+using AppControleGlicemia.Views.Dextro;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -9,21 +9,21 @@ namespace AppControleGlicemia.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PageHome : ContentPage
     {
-        ServicesDbDestro dbDestro = new ServicesDbDestro(App.DbPath);
+        ServicesDbDextro dbDextro = new ServicesDbDextro(App.DbPath);
 
         public PageHome()
         {
             InitializeComponent();
 
-            var mediaHoje = dbDestro.RetornarMediaDia(DateTime.Now);
+            var mediaHoje = dbDextro.RetornarMediaDia(DateTime.Now);
             txtMediaHoje.Text = mediaHoje.Media.ToString();
             txtQuantidadeHoje.Text = mediaHoje.Quantidade.ToString();
 
-            var mediaOntem = dbDestro.RetornarMediaDia(DateTime.Now.AddDays(-1));
+            var mediaOntem = dbDextro.RetornarMediaDia(DateTime.Now.AddDays(-1));
             txtMediaOntem.Text = mediaOntem.Media.ToString();
             txtQuantidadeOntem.Text = mediaOntem.Quantidade.ToString();
 
-            var ultimaMedicao = dbDestro.RetornarUltimaAfericao();
+            var ultimaMedicao = dbDextro.RetornarUltimaAfericao();
             if(ultimaMedicao != null)
             {
                 txtUltimaData.Text = ultimaMedicao.DataAferido != null ? ultimaMedicao.DataAferido.ToString() : "";
@@ -31,10 +31,10 @@ namespace AppControleGlicemia.Views
             }
         }
 
-        private void btInserirDestro_Clicked(object sender, EventArgs e)
+        private void btInserirDextro_Clicked(object sender, EventArgs e)
         {
             FlyoutPage page = (FlyoutPage)Application.Current.MainPage;
-            page.Detail = new NavigationPage(new PageDestroCadastro());
+            page.Detail = new NavigationPage(new PageDextroCadastro());
         }
     }
 }

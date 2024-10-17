@@ -123,10 +123,10 @@
                        FontSize="50" FontFamily="FASolid"
                        HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
                     <Label.GestureRecognizers>
-                        <TapGestureRecognizer x:Name="btInserirDestro" Tapped="btInserirDestro_Clicked" NumberOfTapsRequired="1"/>
+                        <TapGestureRecognizer x:Name="btInserirDextro" Tapped="btInserirDextro_Clicked" NumberOfTapsRequired="1"/>
                     </Label.GestureRecognizers>
                 </Label>
-                <Label Text="Inserir destro" TextColor="{StaticResource ColorSecondary}"
+                <Label Text="Inserir dextro" TextColor="{StaticResource ColorSecondary}"
                        HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"
                        />
             </StackLayout>

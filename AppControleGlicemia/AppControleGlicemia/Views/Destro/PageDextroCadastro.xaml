@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppControleGlicemia.Custom"
+             x:Class="AppControleGlicemia.Views.Dextro.PageDextroCadastro"             
+             Title="Medir dextro">
+    <ContentPage.Content>
+
+        <Grid BackgroundColor="{StaticResource ColorLight}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Row="0" Grid.ColumnSpan="2">
+                <Entry x:Name="txtDextroId" Text="{Binding DextroId}" IsVisible="false" />
+            </StackLayout>
+
+
+            <StackLayout Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal">
+                <Button Text="-" TextColor="{StaticResource ColorLight}" 
+                        BackgroundColor="{StaticResource ColorSecondary}"
+                        HorizontalOptions="EndAndExpand" FontSize="20" 
+                        CornerRadius="25" WidthRequest="50" HeightRequest="50" 
+                        VerticalOptions="CenterAndExpand" 
+                        Clicked="BtAtualizaValor"/>
+
+                <local:CustomEntry x:Name="txtValorAferido" Text="0" FontAttributes="Bold" 
+                       TextColor="{StaticResource ColorPrimary}" 
+                       Keyboard="Numeric" 
+                       HorizontalOptions="CenterAndExpand" 
+                       FontSize="70" WidthRequest="150" MaxLength="3"
+                       HorizontalTextAlignment="Center" />
+
+                <Button Text="+" TextColor="{StaticResource ColorLight}" 
+                        BackgroundColor="{StaticResource ColorSecondary}"
+                        HorizontalOptions="StartAndExpand" FontSize="20" 
+                        CornerRadius="25" WidthRequest="50" HeightRequest="50" 
+                        VerticalOptions="CenterAndExpand" 
+                        Clicked="BtAtualizaValor"/>         
+            </StackLayout>
+
+            <StackLayout Grid.Row="2" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand" Padding="30,0,30,0">
+
+                <Frame Padding="10,3,10,3" HasShadow="False" BackgroundColor="{StaticResource ColorSecondaryLight}" Margin="0,3,0,0">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Dia:" VerticalOptions="CenterAndExpand" />
+                        <local:CustomDatePicker x:Name="txtData" TextColor="{StaticResource ColorSecondary}" FontAttributes="Bold"
+                                    VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </Frame>
+                <Frame Padding="10,3,10,3" HasShadow="False" BackgroundColor="{StaticResource ColorSecondaryLight}" Margin="0,3,0,0">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Hora" VerticalOptions="CenterAndExpand" />
+                            <local:CustomTimePicker x:Name="txtHora" TextColor="{StaticResource ColorSecondary}" FontAttributes="Bold"
+                                        VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" />
+                        </StackLayout>
+                    </Frame>
+                    <Frame Padding="10,3,10,3" HasShadow="False" BackgroundColor="{StaticResource ColorSecondaryLight}" Margin="0,3,0,0">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Insulina:" VerticalOptions="CenterAndExpand"  />
+                            <local:CustomPicker x:Name="pckInsulina" VerticalOptions="CenterAndExpand" 
+                                    TextColor="{StaticResource ColorSecondary}" FontAttributes="Bold"
+                                    Title="Selecione o tipo insulina" FontSize="16" HorizontalOptions="FillAndExpand"
+                                    SelectedIndexChanged="pckInsulina_SelectedIndexChanged">
+                                <Picker.Items>
+                                </Picker.Items>
+                            </local:CustomPicker>
+                        </StackLayout>
+                    </Frame>
+                    <Frame Padding="10,3,10,3" HasShadow="False" BackgroundColor="{StaticResource ColorSecondaryLight}" Margin="0,3,0,0">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Unidades de Insulina:" VerticalOptions="CenterAndExpand" />
+                            <local:CustomEntry Text="0" x:Name="qtdInsulina" Keyboard="Numeric" 
+                                       TextColor="{StaticResource ColorSecondary}" FontAttributes="Bold"
+                                       VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                    </Frame>
+
+            </StackLayout>
+
+            <StackLayout x:Name="gridBtAlterar" Grid.Row="3" Grid.ColumnSpan="2" IsVisible="false" Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                <Button x:Name="btAlterar" 
+                        Text="Alterar" 
+                        TextColor="{StaticResource ColorLight}" 
+                        BackgroundColor="{StaticResource ColorSecondary}"                        
+                        HorizontalOptions="FillAndExpand"
+                        Margin="30,30,5,30"
+                        Clicked="btAlterar_Clicked"/>
+                <Button x:Name="btExcluir" 
+                        Text="Excluir" 
+                        TextColor="{StaticResource ColorLight}" 
+                        BackgroundColor="{StaticResource ColorDanger}"                        
+                        HorizontalOptions="FillAndExpand"
+                        Margin="5,30,30,30"
+                        Clicked="btExcluir_Clicked"/>
+            </StackLayout>
+
+            <StackLayout x:Name="gridBtInserir" Grid.Row="3" Grid.ColumnSpan="2" IsVisible="true">
+                <Button x:Name="btInserir" 
+                        Text="Inserir" 
+                        TextColor="{StaticResource ColorLight}" 
+                        BackgroundColor="{StaticResource ColorSecondary}"
+                        VerticalOptions="EndAndExpand"
+                        Margin="30"
+                        Clicked="btInserir_Clicked"/>
+            </StackLayout>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

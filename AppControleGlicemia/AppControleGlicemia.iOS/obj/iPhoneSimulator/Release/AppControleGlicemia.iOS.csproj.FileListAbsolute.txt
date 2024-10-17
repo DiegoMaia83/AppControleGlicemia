@@ -60,10 +60,10 @@ D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppCo
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.iOS\obj\iPhoneSimulator\Release\optimized\
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.iOS\obj\iPhoneSimulator\Release\AppControleGlicemia.iOS.csproj.AssemblyReference.cache
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.iOS\obj\iPhoneSimulator\Release\AppControleGlicemia.iOS.csproj.CoreCompileInputs.cache
-D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.iOS\obj\iPhoneSimulator\Release\AppControleGlicemia.iOS.csproj.CopyComplete
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.iOS\obj\iPhoneSimulator\Release\AppControleGlicemia.iOS.exe
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.iOS\obj\iPhoneSimulator\Release\actool\_ProcessedImageAssetsPath.items
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.iOS\obj\iPhoneSimulator\Release\ibtool\_ProcessedInterfaceDefinitionsPath.items
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.iOS\obj\iPhoneSimulator\Release\coremlc\_ProcessedCoreMLModelsPath.items
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.iOS\obj\iPhoneSimulator\Release\_ProcessedBundleResourcesPath.items
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.iOS\obj\iPhoneSimulator\Release\_ProcessedContentPath.items
+D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.iOS\obj\iPhoneSimulator\Release\AppContr.A9FBCB98.Up2Date

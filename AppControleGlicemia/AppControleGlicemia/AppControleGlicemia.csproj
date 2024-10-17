@@ -27,16 +27,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\Destro\PageDextroLista.xaml.cs">
+      <DependentUpon>PageDextroLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Destro\PageDextroCadastro.xaml.cs">
+      <DependentUpon>PageDextroCadastro.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\PageMenu.xaml.cs">
       <DependentUpon>PageMenu.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Views\Destro\PageDestroCadastro.xaml">
+    <EmbeddedResource Update="Views\Dextro\PageDextroCadastro.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\Destro\PageDestroLista.xaml">
+    <EmbeddedResource Update="Views\Dextro\PageDextroLista.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\PageHome.xaml">

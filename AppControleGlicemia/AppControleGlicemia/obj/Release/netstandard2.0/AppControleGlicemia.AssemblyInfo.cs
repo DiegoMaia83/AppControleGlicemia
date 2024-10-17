@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppControleGlicemia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c1b5dc79654ae84ab08cac467acb19ee3498eb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99524b5f69f3a143ad38f3fb731697a24fa42be3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppControleGlicemia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppControleGlicemia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

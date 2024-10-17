@@ -442,5 +442,3 @@ D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppCo
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.Android\obj\Release\110\android\jni_remap.armeabi-v7a.o
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.Android\obj\Release\110\android\jni_remap.arm64-v8a.o
 D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.Android\obj\Release\110\stamp\_CompileJava.stamp
-D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.Android\obj\Release\110\aapt_rules.txt
-D:\Desenvolvimento\Xamarin\Projeto\AppControleGlicemia\AppControleGlicemia\AppControleGlicemia.Android\obj\Release\110\android\manifest\aapt_rules.txt
