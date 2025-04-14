@@ -1,4 +1,4 @@
-# 🚗 GlicApp – Aplicativo par ao controle de glicemia
+# ❤️‍🩹 GlicApp – Aplicativo par ao controle de glicemia
 
 O **GlicApp** é um aplicativo con controle de glicemia.  
 O aplicativo é acessado pelo sistema operacional **android**.
